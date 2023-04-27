@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.number {
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+}
+
+.number:hover {
+    background-color: palegreen;
+}
+.operator {
+    border: 1px solid steelblue;
+    border-radius: 10px;
+}
+.operator:hover {
+    background-color: paleturquoise;
+}
+
+#clear-btn {
+    border: 1px solid red;
+    border-radius: 10px;
+}
+#clear-btn:hover {
+    background-color: palevioletred;
+}
+
+.decimal {
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+.decimal:hover {
+    background-color: aquamarine;
+}
+.equal {
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.equal:hover {
+    background-color: pink;
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen {
+    width: 205px;
+    border: 1px solid red;
+    height: 50px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous {
+    font-size: 15px;
+}
+
+.current {
+    font-size: 20px;
+}
